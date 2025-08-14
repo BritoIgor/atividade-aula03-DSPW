@@ -9,7 +9,7 @@ const livros = require('./biblioteca');
 // ------------------------------------------------------------------------
 function filtrarLivrosFiccao(biblioteca) {
   return biblioteca.filter(function(livro) {
-    return livro.genero === "Ficção";
+    return livro.genero === 'Ficção científica';
   });
 }
 // Sua vez

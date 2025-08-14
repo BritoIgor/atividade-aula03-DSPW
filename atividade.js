@@ -7,8 +7,8 @@ const livros = require('./biblioteca');
 // Crie uma função (modelo tradicional) que aceite um gênero como parâmetro
 // e retorne um novo array com todos os livros desse gênero.
 // ------------------------------------------------------------------------
-function filtrarLivrosJs(biblioteca) {
-  return livros.filter(function(bibliotecafiltrada) {
+function filtrarLivrosFic(biblioteca) {
+  return biblioteca.filter(function(bibliotecafiltrada) {
     return biblioteca.genero === 'ficçao Científica';
   });
 }

@@ -64,6 +64,11 @@ console.log('\n--- Atividade 3: Lista de todos os títulos ---');
 
 
 // Sua vez
+function livrosTolkienApos1950(livros) {
+  return livros.filter(livro => 
+    livro.autor === "J.R.R. Tolkien" && livro.anoPublicacao > 1950
+  );
+}
 
 
 // Teste da Atividade 4
